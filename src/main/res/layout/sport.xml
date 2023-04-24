@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAEDF6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="373dp"
+                android:layout_height="113dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/aclonica"
+                android:text="Getting started with a Heart-smart exercise plan !!"
+                android:textColor="#0545E8"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="419dp"
+                android:layout_height="279dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/heart" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/wcheckBox"
+                    android:layout_width="31dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp" />
+
+                <Button
+                    android:id="@+id/warmUp"
+                    android:layout_width="219dp"
+                    android:layout_height="70dp"
+                    android:text="Warm-up exercises "
+                    app:backgroundTint="#4096CF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/acheckBox"
+                    android:layout_width="31dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/aerobic"
+                    android:layout_width="219dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Aerobic exercise "
+                    app:backgroundTint="#4096CF" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

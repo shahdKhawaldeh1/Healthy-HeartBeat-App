@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.login">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="Healthy Heartbeat"
+        android:theme="@style/Theme.Login">
+
+        <activity
+            android:name=".ui.login.mainPage"
+            android:label="Healthy Heartbeat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.login.Register"
+            android:label="Register">
+        </activity>
+
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="LOGIN">
+
+        </activity>
+
+
+        <activity
+            android:name=".ui.login.mainPage1"
+            android:label="Healthy Heartbeat">
+
+        </activity>
+
+        <activity
+            android:name=".ui.login.medicine"
+            android:label="Notes">
+
+        </activity>
+
+        <activity
+            android:name=".ui.login.symptoms"
+            android:label="Symptoms">
+
+        </activity>
+
+
+        <activity
+            android:name=".ui.login.aerobic"
+            android:label="Aerobic">
+
+        </activity>
+
+        <activity
+            android:name=".ui.login.cycling"
+            android:label="Cycling">
+
+        </activity>
+
+        <activity
+            android:name=".ui.login.dancing"
+            android:label="Dancing">
+
+        </activity>
+
+        <activity
+            android:name=".ui.login.sport"
+            android:label="Sports">
+
+        </activity>
+
+        <activity
+            android:name=".ui.login.swimming"
+            android:label="Swimming">
+
+        </activity>
+
+        <activity
+            android:name=".ui.login.walking"
+            android:label="Walking">
+
+        </activity>
+
+        <activity
+            android:name=".ui.login.warmup"
+            android:label="WarmUp">
+
+        </activity>
+
+        <activity
+            android:name=".ui.login.yoga"
+            android:label="Yoga">
+
+        </activity>
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

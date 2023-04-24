@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAEDF6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="363dp"
+                android:layout_height="98dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/aladin"
+                android:text="Pay attention to your symptoms! "
+                android:textColor="#E66767"
+                android:textSize="32sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="411dp"
+                android:layout_height="344dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:src="@mipmap/symptoms"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="363dp"
+                android:layout_height="96dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/habibi"
+                android:text="Seek medical attention immediately if you experience any of the following symptoms: "
+                android:textColor="#E66767"
+                android:textSize="21dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="363dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/habibi"
+                android:text="- Chest discomfort."
+                android:textColor="#E66767"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="363dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/habibi"
+                android:text="- Shortness of breath."
+                android:textColor="#E66767"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="363dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/habibi"
+                android:text="- Dizziness or light-headedness."
+                android:textColor="#E66767"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="363dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/habibi"
+                android:text="- Heart rhythm abnormalities."
+                android:textColor="#E66767"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="363dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/habibi"
+                android:text="- Discomfort in other areas of the body."
+                android:textColor="#E66767"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="363dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/habibi"
+                android:text="- Unusual sweating."
+                android:textColor="#E66767"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

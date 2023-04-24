@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAEDF6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="170dp"
+                android:layout_marginEnd="24dp"
+                android:autofillHints=""
+                android:textColor="@color/black"
+                android:hint="Username or Email"
+                android:textColorHint="@color/gray"
+                android:inputType="textEmailAddress"
+                android:selectAllOnFocus="true" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="24dp"
+                android:autofillHints=""
+                android:textColor="@color/black"
+                android:hint="@string/prompt_password"
+                android:textColorHint="@color/gray"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:selectAllOnFocus="true" />
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginEnd="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="64dp"
+                app:backgroundTint="@color/gray"
+                android:textColor="@color/black"
+                android:enabled="false"
+                android:text="sign in" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="208dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/gray"
+                android:text="Doesn't have an account?"
+                app:autoSizeTextType="uniform" />
+
+            <Button
+                android:id="@+id/signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:text="Sign up"
+                app:backgroundTint="#4096CF" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
